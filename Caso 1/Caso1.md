@@ -1,5 +1,6 @@
 ## Obtener la lista de vistas a las que un usuario tiene acceso.
 ---
+**Luis Ignacio Bonilla
 [person] nombreCompleto (first_name, middle_name, last_name, second_last_name)
 [user] usuario(username)
 [role] rol(name)
