@@ -1,6 +1,6 @@
 ## Obtener la lista de vistas a las que un usuario tiene acceso.
 ---
-**Luis Ignacio Bonilla
+** Luis Ignacio Bonilla
 [person] nombreCompleto (first_name, middle_name, last_name, second_last_name)
 [user] usuario(username)
 [role] rol(name)
@@ -46,8 +46,10 @@ FROM
     INNER JOIN module m ON rm.module_id = m.id
     INNER JOIN module_view mv ON m.id = mv.module_id
     INNER JOIN view v ON mv.view_id = v.id
+```
+
 
 ![Caso 1 Filtrado](image-1.png)
----
+
 
 
