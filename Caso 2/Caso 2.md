@@ -7,4 +7,5 @@
 [module] modulo(name)
 [view] vista[name]
 
-![Caso 2](C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\Imagenes\image-2.png)
+# Resultado
+![Caso 2](image.png)

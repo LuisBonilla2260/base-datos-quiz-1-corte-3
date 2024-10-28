@@ -27,10 +27,10 @@ FROM
         INNER JOIN
     view v ON mv.view_id = v.id
 
-#Resultado
-![Caso 1 Sin Filtro]("C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\Imagenes\image.png")
+# Resultado
+![Caso 1 Sin Filtro](image.png)
 # Caso 1 Filtro
-´´´
+```bash
 SELECT 
     CONCAT(p.first_name, ' ', p.middle_name, ' ', p.last_name, ' ', p.second_last_name) AS nombreCompleto,
     u.username AS usuario,
@@ -47,7 +47,7 @@ FROM
     INNER JOIN module_view mv ON m.id = mv.module_id
     INNER JOIN view v ON mv.view_id = v.id
 
-![Caso1_filtro](C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\Imagenes\image-1.pngs)
+![Caso 1 Filtrado](image-1.png)
 ---
 
 
