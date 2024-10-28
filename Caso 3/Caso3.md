@@ -12,4 +12,4 @@
 # Resultado
 ![Caso 3](C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\imagecaso3.png)
 
-![Test] (image.png)
+![alt text](image-1.png)
