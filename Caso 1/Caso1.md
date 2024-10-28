@@ -28,8 +28,7 @@ FROM
     view v ON mv.view_id = v.id
 
 #Resultado
-![Caso1_sinfiltro](image.png)
-
+![Caso 1 Sin Filtro]("C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\Imagenes\image.png")
 # Caso 1 Filtro
 ´´´
 SELECT 
@@ -48,7 +47,7 @@ FROM
     INNER JOIN module_view mv ON m.id = mv.module_id
     INNER JOIN view v ON mv.view_id = v.id
 
-![Caso1_filtro](image-1.png)
+![Caso1_filtro](C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\Imagenes\image-1.pngs)
 ---
 
 

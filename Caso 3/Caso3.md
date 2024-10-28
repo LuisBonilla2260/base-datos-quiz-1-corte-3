@@ -10,4 +10,4 @@
 [view] vista[name]
 
 # Resultado
-![alt text](image.png)
+![Caso 3](C:\Users\Usuario\Desktop\mysql\base-datos-quiz-1-corte-3\base-datos-quiz-1-corte-3\imagecaso3.png)
