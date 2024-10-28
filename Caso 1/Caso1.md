@@ -1,13 +1,15 @@
-## Obtener la lista de vistas a las que un usuario tiene acceso.
+# Caso 1
+**Luis Ignacio Bonilla**
+ -
+ -Obtener la lista de vistas a las que un usuario tiene acceso.
 ---
-** Luis Ignacio Bonilla
+```bash
 [person] nombreCompleto (first_name, middle_name, last_name, second_last_name)
 [user] usuario(username)
 [role] rol(name)
 [module] modulo(name)
 [view] vista [name]
 
-´´´´
 SELECT
     *
 FROM
@@ -26,7 +28,7 @@ FROM
     module_view mv ON m.id = mv.module_id
         INNER JOIN
     view v ON mv.view_id = v.id
-
+```
 # Resultado
 ![Caso 1 Sin Filtro](image.png)
 # Caso 1 Filtro

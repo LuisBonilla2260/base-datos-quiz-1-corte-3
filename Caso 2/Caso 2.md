@@ -1,8 +1,9 @@
 # Caso 2
-# **Mostar la lista de vistas a las que tiene acceso un rol. Enviar como condición el nombre del rol [role](name)
 ---
-** Luis Ignacio Bonilla
+**Luis Ignacio Bonilla**
 ---
+-Mostar la lista de vistas a las que tiene acceso un rol. Enviar como condición el nombre del rol [role](name)
+
 ```bash
 
 [role] rol(name)
